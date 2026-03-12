@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const { ulkeler, tarihiDevletler, kitalar } = require('./veri.js');
 
-const token = process.env.TELEGRAM_BOT_TOKEN || 'YOUR_BOT_TOKEN_HERE';
+const token = process.env.TELEGRAM_BOT_TOKEN || '8613864275:AAEYqCZ__ahUpS-SgxYP4_Q0efgomA12rZg';
 const bot = new TelegramBot(token, { polling: true });
 
 // Kullanıcı oyun durumları
