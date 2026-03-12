@@ -1,0 +1,26 @@
+{
+  "name": "bayrak-tahmin-bot",
+  "version": "1.0.0",
+  "description": "Telegram için bayrak tahmin oyunu - Kıtalar ve tarihsel devletler ile",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "bayrak",
+    "oyun",
+    "tarih",
+    "kıta"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
